@@ -1,67 +1,19 @@
-/* 设置常见的屏幕尺寸,修改里面的html文字大小 */
-a {
-  text-decoration: none;
-}
-html {
-  font-size: 50px;
-}
-@media screen and (min-width: 320px) {
-  html {
-    font-size: 21.33333333px;
-  }
-}
-@media screen and (min-width: 375px) {
-  html {
-    font-size: 25px;
-  }
-}
-@media screen and (min-width: 384px) {
-  html {
-    font-size: 25.6px;
-  }
-}
-@media screen and (min-width: 400px) {
-  html {
-    font-size: 26.66666667px;
-  }
-}
-@media screen and (min-width: 414px) {
-  html {
-    font-size: 27.6px;
-  }
-}
-@media screen and (min-width: 424px) {
-  html {
-    font-size: 28.26666667px;
-  }
-}
-@media screen and (min-width: 480px) {
-  html {
-    font-size: 32px;
-  }
-}
-@media screen and (min-width: 540px) {
-  html {
-    font-size: 36px;
-  }
-}
-@media screen and (min-width: 720px) {
-  html {
-    font-size: 48px;
-  }
-}
-@media screen and (min-width: 750px) {
-  html {
-    font-size: 50px;
-  }
-}
 body {
   min-width: 320px;
-  width: 15rem;
+  max-width: 750px;
+  width: 10rem;
   margin: 0 auto;
   line-height: 1.5;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #f2f2f2;
+}
+a {
+  text-decoration: none;
+}
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 75px !important;
+  }
 }
 .search-content {
   display: flex;
@@ -69,16 +21,16 @@ body {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  width: 15rem;
-  height: 1.76rem;
+  width: 10rem;
+  height: 1.173333rem;
   background-color: #ffc001;
 }
 .search-content .classify {
-  width: 0.88rem;
-  height: 1.4rem;
-  margin: 0.22rem 0.5rem 0.14rem 0.48rem;
+  width: 0.586667rem;
+  height: 0.933333rem;
+  margin: 0.146667rem 0.333333rem 0.093333rem 0.32rem;
   background: url(../images/classify.png) no-repeat;
-  background-size: 0.88rem 1.4rem;
+  background-size: 0.586667rem 0.933333rem;
 }
 .search-content .search {
   flex: 1;
@@ -86,30 +38,28 @@ body {
 .search-content .search input {
   border: 0;
   outline: none;
-  border-radius: 0.66rem;
+  border-radius: 0.44rem;
   background-color: #fff2cc;
-  height: 1.32rem;
-  margin-top: 0.2rem;
+  height: 0.88rem;
+  margin-top: 0.133333rem;
   width: 100%;
-  font-size: 0.5rem;
-  padding-left: 1.1rem;
-  padding-right: 1.1rem;
+  font-size: 0.333333rem;
+  padding-left: 0.733333rem;
+  padding-right: 0.733333rem;
   color: #757575;
 }
 .search-content .login {
-  width: 1.5rem;
-  height: 1.4rem;
-  margin: 0.2rem;
-  background-color: burlywood;
-  font-size: 0.5rem;
+  width: 1rem;
+  height: 0.933333rem;
+  margin: 0.133333rem;
+  font-size: 0.333333rem;
   text-align: center;
   color: #fff;
-  line-height: 1.4rem;
-  text-shadow: 3px 3px 10px 10px;
+  line-height: 0.933333rem;
 }
 .banner {
-  width: 15rem;
-  height: 7.36rem;
+  width: 10rem;
+  height: 4.906667rem;
 }
 .banner img {
   width: 100%;
@@ -128,23 +78,23 @@ body {
   width: 100%;
 }
 nav {
-  width: 15rem;
+  width: 10rem;
 }
 nav a {
   float: left;
-  width: 3rem;
-  height: 2.8rem;
+  width: 2rem;
+  height: 1.866667rem;
   text-align: center;
 }
 nav a img {
   display: block;
-  margin: 0.04rem auto 0;
-  width: 1.68rem;
-  height: 1.68rem;
+  margin: 0.026667rem auto 0;
+  width: 1.12rem;
+  height: 1.12rem;
 }
 nav a span {
   display: block;
   text-align: center;
   color: #333;
-  font-size: 0.44rem;
+  font-size: 0.293333rem;
 }
